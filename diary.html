@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Diary Entries</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Your Diary Entries</h1>
+    <textarea id="diary-entry" placeholder="Write your thoughts here..." rows="10" cols="50"></textarea>
+    <div class="buttons">
+      <button class="btn" onclick="saveEntry()">Save Entry</button>
+      <button class="btn" onclick="clearEntry()">Clear</button>
+    </div>
+    <h2>Your Past Entries:</h2>
+    <div id="entries"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
